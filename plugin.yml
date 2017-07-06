@@ -1,0 +1,233 @@
+main: com.elderrealm.main.ElderRealmCore
+version: 1.0
+name: ElderRealm
+author: Tricks
+
+commands:
+  elderrealm:
+    description: Created by Tricks
+
+  rules:
+    description: Show ElderRealm rules
+
+  economy:
+    description: View all Economy commands
+
+  giveenderkeys:
+    description: give ender crate keys
+  
+  givefirekeys:
+    description: give fire crate keys
+  
+  pvpitems:
+    description: pvp items
+ 
+  spawn:
+    description: Teleport to the Capital.
+    aliases: [capital]
+ 
+  helproom:
+    description: Teleport to the HelpRoom
+    aliases: [hr]
+ 
+  profile:
+    description: Open up some of your profile information
+  
+  coins:
+    description: Display your Coin balance
+    aliases: [bal, balance, gold, money, coin]
+  
+  staff:
+    description: See which staff are online
+ 
+  who:
+    description: See which players are online
+    aliases: [players, playerlist, online, list]
+  
+  customitems:
+    description: See all the Legendary Items
+    permission: elderrealm.admin
+    permission-message: "§cYou do not have permission."
+ 
+  setbase:
+    description: Set your base location
+    aliases: [sethome]
+ 
+  base:
+    description: Teleport to your base
+    aliases: [home]
+ 
+  givebasetps:
+    description: Gives a player basetps
+  
+  buyeggs:
+    description: Purchase 1-16 eggs
+    aliases: [egg, eggs, buyegg, begg]
+  
+  sellcake:
+    description: Sells cake from your inventory
+    aliases: [cake, scake, cakesell]
+ 
+  mining:
+    description: Teleport to the Mining world
+    aliases: [mine, resource, mineworld, miningworld]
+ 
+  legenddrop:
+    description: Test command for drop percentages
+    permission: elderrealm.admin
+    permission-message: "§cYou do not have permission."
+  
+  help:
+    description: Displays a useful help page
+    aliases: [hlp, helps]
+ 
+  website:
+    description: View our website information
+    aliases: [web, donate, buy, internet, ranks, store, shop]
+  
+  message:
+    description: Sends private messages
+    aliases: [msg, tell, whisper, w]
+  
+  teleport:
+    description: Teleports you to a player
+    aliases: [tp, tpo]
+    permission: elderrealm.admin, elderrealm.moderator, elderrealm.srmod
+    permission-message: "§cYou do not have permission."
+  
+  teleporthere:
+    description: Teleports a player to you
+    aliases: [tphere, tpohere, tpme]
+    permission: elderrealm.admin, elderrealm.srmod
+    permission-message: "§cYou do not have permission."
+
+  near:
+    description: Checks for players within 50 blocks
+    aliases: [nearme, close, ]
+ 
+  alert:
+    description: Console alert messages
+    aliases: [nearme, close, ]
+  
+  anvil:
+    description: Opens an anvil for you to use
+
+  craft:
+    description: Opens a Crafting table for you to use
+    aliases: [workbench,wb, wbench, eworkbench, ewb, ecraft]
+  
+  chatsymbols:
+    description: Opens the ChatSymbols GUI to edit youe symbol
+    aliases: [chatsymbols, symbols, cs, csgui]
+
+  battlecry:
+    description: Have battle cry for 15 minutes to get enemies heads!
+    aliases: [chatsymbols, symbols, cs, csgui]
+
+  enderchest:
+    description: Open your Enderchest wherever you are
+    aliases: [ec, ender, echest]
+
+  fly:
+    description: Toggle fly
+    aliases: [togglefly]
+
+  deletebase:
+    description: Deletes your base
+    aliases: [basedel, delbase, basedelete, delhome]
+
+  staffchannel:
+    description: Send messages in staff chat
+    aliases: [staffc, sc, staffchat]
+
+  localchannel:
+    description: Send messages in Local Chat
+    aliases: [l, local, lchannel, lchat]
+
+  mainchannel:
+    description: Send messages in Main Chat
+    aliases: [main, mchannel, mainchat, mchat]
+ 
+  donatorchannel:
+    description: Send messages in Main Chat
+    aliases: [donchannel, dchanel, dc, dchat, donchat]
+
+  wilderness:
+    description: Teleport to the wilderness
+    aliases: [wild, wildtp, tpwild]
+
+  sellhaybale:
+    description: Teleport to the wilderness
+    aliases: [hay, haybale, sellhay]
+
+  sellgold:
+    description: Sell gold in your inventory
+  
+  reply:
+    description: Reply to messages
+    aliases: [r]
+
+  crates:
+    description: Teleport to the Crates area
+    aliases: [tpcrates, cratestp]
+  
+  sellbooks:
+    description: Sell books
+    aliases: [booksell, sellbook, books, book]
+ 
+  player:
+    description: Recieve the Player kit
+    aliases: [playerkit, pkit, kitplayer, kitp]
+
+  iron:
+    description: Recieve the Iron kit
+    aliases: [ironkit, ikit, kitiron, kiti]
+
+  gold:
+    description: Recieve the Gold kit
+    aliases: [goldkit, gkit, kitgold, kitg]
+
+  diamond:
+    description: Recieve the Diamond kit
+    aliases: [diamondkit, dkit, kitdiamond, kitd]
+
+  emerald:
+    description: Recieve the Emerald kit
+    aliases: [emeraldkit, ekit, kitemerald, kite]
+
+  ping:
+    description: Get a players ping
+
+permissions:
+  elderrealm.admin:
+    default: false
+  
+  elderrealm.srmod:
+    default: false
+  
+  elderrealm.moderator:
+    default: false
+
+  elderrealm.assistant:
+    default: false
+ 
+  elderrealm.staff:
+    default: false
+  
+  elderrealm.emerald:
+    default: false
+  
+  elderrealm.diamond:
+    default: false
+  
+  elderrealm.gold:
+    default: false
+  
+  elderrealm.iron:
+    default: false
+  
+  elderrealm.donator:
+    default: false
+  
+  elderrealm.player:
+    default: false
